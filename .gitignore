@@ -1,0 +1,19 @@
+# Never commit/push the solution folder. In CMake solutions are not portable and meant to be disposable anyway.
+Solution
+Build
+
+# Visual Studio build and project files
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Hidden Visual Studio files
+*.vs
+
+# CMake build folder
+CMakeFiles
+CMakeCache.txt
+CMakeSettings.json
